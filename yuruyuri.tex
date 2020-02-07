@@ -1,0 +1,119 @@
+\documentclass{article}
+\usepackage{ctex}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{bm}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[stable]{footmisc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{footnote}
+\usepackage{enumerate}
+\usepackage{subfigure}
+\usepackage{paralist}%紧凑的itemize
+\usepackage{color}%使用方式\textcolor[rgb]{1,0,0}{文本}
+\usepackage{mathrsfs}%花体字母\mathscr{T}
+\makesavenoteenv{table}%table里面也可以显示下标
+\usepackage{tikz}
+\usepackage{tikzscale}
+\usepackage{pgfplots,pgfplotstable}%TeX矢量作图
+
+\definecolor{akari}{HTML}{DA868E}
+\definecolor{kyouko}{HTML}{EED6B5}
+\definecolor{yui}{HTML}{786373}
+\definecolor{chinatsu}{HTML}{EDC6D8}
+\definecolor{ayano}{HTML}{A46689}
+\definecolor{chitose}{HTML}{ECE4EF}
+\definecolor{sakurako}{HTML}{DECCA5}
+\definecolor{himawari}{HTML}{677E9A}
+\definecolor{rise}{HTML}{72585F}
+\definecolor{nana}{HTML}{E7D8D1}
+\definecolor{chizuru}{HTML}{ECE4EF}
+\definecolor{akane}{HTML}{E18E96}
+\definecolor{tomoko}{HTML}{F5BEDC}
+\definecolor{nadeshiko}{HTML}{F1E0CB}
+
+\geometry{a4paper,scale=0.95}
+\title{}
+\author{}
+\date{\today}
+\linespread{1.25}
+\begin{document}
+    \maketitle
+    \begin{tikzpicture}[scale=0.3]
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=akari] (akari) at (0,0) {赤座灯里};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=kyouko] (kyouko) at (0,-6) {岁纳京子};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=yui] (yui) at (0,-12) {船见结衣};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=chinatsu] (chinatsu) at (0,-18) {吉川千夏};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=ayano] (ayano) at (0,-24) {杉浦绫乃};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=chitose] (chitose) at (0,-30) {池田千岁};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=sakurako] (sakurako) at (0,-36) {大室樱子};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=himawari] (himawari) at (0,-42) {古谷向日葵};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=rise] (rise) at (0,-48) {松本理世};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=nana] (nana) at (0,-54) {西垣奈奈};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=chizuru] (chizuru) at (12,0) {池田千鹤};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=akane] (akane) at (12,-6) {赤座茜};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=tomoko] (tomoko) at (12,-12) {吉川友子};
+        \draw[->] (akari)--(kyouko);
+        \node at (6,1) {xelatex};
+        \node at (18,1) {dvipdfmx};
+    \end{tikzpicture}
+    \clearpage
+    \begin{tikzpicture}[scale=0.3]
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=akari] (akari) at (0,0) {赤座灯里};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=kyouko] (kyouko) at (12,0) {岁纳京子};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=yui] (yui) at (0,-6) {船见结衣};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=chinatsu] (chinatsu) at (12,-6) {吉川千夏};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=ayano] (ayano) at (24,0) {杉浦绫乃};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=chitose] (chitose) at (24,-6) {池田千岁};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=sakurako] (sakurako) at (36,0) {大室樱子};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=himawari] (himawari) at (36,-6) {古谷向日葵};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=rise] (rise) at (48,0) {松本理世};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=nana] (nana) at (48,-6) {西垣奈奈};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=chizuru] (chizuru) at (24,-12) {池田千鹤};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=akane] (akane) at (0,6) {赤座茜};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=tomoko] (tomoko) at (12,-12) {吉川友子};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=black,fill=nadeshiko] (nadeshiko) at (36,6) {大室抚子};
+        \node[rectangle,rounded corners=5pt,minimum width=50pt,minimum height=20pt,inner sep=5pt,draw=chitose,fill=white] (unknow) at (48,6) {\color{chitose}{unknow}};
+        \draw[line width=1pt,->] (tomoko)--(-6,-12)--(-6,6)--(akane);
+        \draw[line width=1pt,->] (akane)--(akari);
+        \draw[line width=1pt,<->] (yui)--(akari);
+        \draw[line width=1pt,<->] (akari)--(kyouko);
+        \draw[line width=1pt,<->] (yui)--(kyouko);
+        \draw[line width=1pt,->] (chinatsu)--(yui);
+        \draw[line width=1pt,->] (kyouko)--(chinatsu);
+        \draw[line width=1pt,->] (ayano)--(kyouko);
+        \draw[line width=1pt,->] (chitose)--(ayano);
+        \draw[line width=1pt,->] (chitose)--(kyouko);
+        \draw[line width=1pt,->] (chizuru)--(chitose);
+        \draw[line width=1pt,->] (chizuru)..controls (30,-9) and (30,-3)..(ayano);
+        \draw[line width=1pt,<->] (sakurako)--(himawari);
+        \draw[line width=1pt,<->] (rise)--(nana);
+        \draw[line width=1pt,<->] (nadeshiko)--(unknow);
+        \node at (0,-11) {喜欢};
+        \node at (1.5,3) {喜欢};
+        \node[rotate=28] at (5.8,-2.3) {$\text{幼驯染}^1$};
+        \node at (6,1) {幼驯染};
+        \node at (1.8,-3) {幼驯染};
+        \node at (6,-5) {喜欢};
+        \node at (12,-3) {$\mathrm{cosplay}^2$};
+        \node at (18,1) {喜欢};
+        \node[rotate=-28] at (18.1,-2.4) {\;\;妄想};
+        \node at (22.8,-3) {妄想};
+        \node at (22.8,-9) {妄想};
+        \node at (27.4,-4) {妄想};
+        \node at (34.8,-3) {喜欢};
+        \node at (46.8,-3) {喜欢};
+        \node at (42,7) {$\text{百合}^3$};
+        \draw [dashed] (20,2)--(20,-7.8)--(42,-7.8)--(42,-1.8)--(52,-1.8)--(52,2)--(20,2);
+        \node at (36,3) {\textbf{生徒会}};
+        \draw [dashed] (-4,2)--(-4,-7.8)--(16,-7.8)--(16,2)--(-4,2);
+        \node at (6,3) {\textbf{娱乐部}};
+        \node [label=right:{\scriptsize 京子与结衣是否为百合有待商榷，鉴于在第一季第6话中曾经画过其与结衣的恋爱漫画。}] at (-6,-18) {\scriptsize 1.};
+        \node [label=right:{\scriptsize 同样，京子与千夏是否为百合也有待商榷，鉴于京子多次想和千夏亲亲。（不过京子对谁都这样吧）\color{chitose}{京子这个罪孽深重的女人。}}] at (-6,-19) {\scriptsize 2.};
+        \node [label=right:{\scriptsize 出处见第二季第10话。}] at (-6,-20) {\scriptsize 3.};
+    \end{tikzpicture}
+\end{document}
